@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon MiniTv</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        button {
+            width: 15rem;
+            height: 4rem;
+            background-color: rgb(69, 69, 177);
+            border-radius: 10px;
+            margin: 1rem;
+            color: white;
+        }
+
+        .watermark {
+            color: black;
+            text-decoration: underline;
+        }
+
+        .para {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <button type="button" id="epi1">Episode - 1</button>
+    <button type="button" id="epi2">Episode - 2</button>
+    <button type="button" id="epi3">Episode - 3</button>
+    <button type="button" id="epi4">Episode - 4</button>
+    <button type="button" id="epi5">Episode - 5</button>
+    <button type="button" id="epi6">Episode - 6</button>
+    <button type="button" id="epi7">Episode - 7</button>
+    
+
+    <p class="para">~ Created By <a href="https://t.me/internet_developer" class="watermark">Internet Developer</a></p>
+    <p class="para">~For Any ISSUES Contact <a href="https://t.me/internet_developer" class="watermark">Internet Developer</a></p>
+
+    <script>
+        // Add event listeners to the buttons
+        document.getElementById('epi1').addEventListener('click', function() {
+            // Store video URL in session storage
+            sessionStorage.setItem('videoUrl', 'https://d3s0ximcru5bdx.cloudfront.net/tvfavod-yehmerifamily-s1-e1-1640177706059/dash/tvfavod-yehmerifamily-s1-e1.mpd');
+            // Redirect to videoplayer.html
+            window.location.href = '../../../videoplayer.html';
+        });
+
+        document.getElementById('epi2').addEventListener('click', function() {
+            // Store video URL in session storage
+            sessionStorage.setItem('videoUrl', 'https://d3s0ximcru5bdx.cloudfront.net/tvfavod-yehmerifamily-s1-e2-1640181329394/dash/tvfavod-yehmerifamily-s1-e2.mpd');
+            // Redirect to videoplayer.html
+            window.location.href = '../../../videoplayer.html';
+        });
+
+        document.getElementById('epi3').addEventListener('click', function() {
+            // Store video URL in session storage
+            sessionStorage.setItem('videoUrl', 'https://d3s0ximcru5bdx.cloudfront.net/tvfavod-yehmerifamily-s1-e3-1640434522807/dash/tvfavod-yehmerifamily-s1-e3.mpd');
+            // Redirect to videoplayer.html
+            window.location.href = '../../../videoplayer.html';
+        });
+
+        document.getElementById('epi4').addEventListener('click', function() {
+            // Store video URL in session storage
+            sessionStorage.setItem('videoUrl', 'https://d3s0ximcru5bdx.cloudfront.net/tvfavod-yehmerifamily-s1-e4-1699365703355/dash/tvfavod-yehmerifamily-s1-e4.mpd');
+            // Redirect to videoplayer.html
+            window.location.href = '../../../videoplayer.html';
+        });
+
+        document.getElementById('epi5').addEventListener('click', function() {
+            // Store video URL in session storage
+            sessionStorage.setItem('videoUrl', 'https://d3s0ximcru5bdx.cloudfront.net/tvfavod-yehmerifamily-s1-e5-1640438304566/dash/tvfavod-yehmerifamily-s1-e5.mpd');
+            // Redirect to videoplayer.html
+            window.location.href = '../../../videoplayer.html';
+        });
+
+        document.getElementById('epi6').addEventListener('click', function() {
+            // Store video URL in session storage
+            sessionStorage.setItem('videoUrl', 'https://d3s0ximcru5bdx.cloudfront.net/tvfavod-yehmerifamily-s1-e6-1699365703331/dash/tvfavod-yehmerifamily-s1-e6.mpd');
+            // Redirect to videoplayer.html
+            window.location.href = '../../../videoplayer.html';
+        });
+
+        document.getElementById('epi7').addEventListener('click', function() {
+            // Store video URL in session storage
+            sessionStorage.setItem('videoUrl', 'https://d3s0ximcru5bdx.cloudfront.net/tvfavod-yehmerifamily-s1-e7-1640441130423/dash/tvfavod-yehmerifamily-s1-e7.mpd');
+            // Redirect to videoplayer.html
+            window.location.href = '../../../videoplayer.html';
+        });
+    </script>
+</body>
+</html>
