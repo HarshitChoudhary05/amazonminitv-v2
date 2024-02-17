@@ -1,0 +1,6 @@
+'https://www.amazon.in/minitv/tp/9d2a94e3-9dd0-46c2-9425-c56450fcaa03',
+'https://www.amazon.in/minitv/tp/475e02d1-211e-4247-8396-62fc01701a0e',
+'https://www.amazon.in/minitv/tp/ab71a323-8c88-409a-96cf-484b4d575820',
+'https://www.amazon.in/minitv/tp/42e7ac78-bdd6-4449-b2df-1779035a4c4a',
+'https://www.amazon.in/minitv/tp/dcf3aa56-ac5a-4a16-8546-b6abd5d03760',
+'https://www.amazon.in/minitv/tp/b6a38cc7-0920-4086-a54d-1a92c5ad7a54',
